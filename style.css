@@ -72,9 +72,11 @@ p {
     border-bottom-right-radius: 5px;
     font-weight: 600;
 }
-.input-area button:hover{
+
+.input-area button:hover {
     background: #000000a4;
 }
+
 .list-container {
     padding: 10px;
 }
@@ -167,4 +169,32 @@ footer .progress-bar {
     font-size: 19px;
     font-weight: 600;
     display: none;
+}
+
+@media (max-width:400px) {
+    .todo-app {
+        border-radius: 15px;
+
+    }
+
+    h1 {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .input-area {
+        width: 90%;
+        margin: 10px auto;
+        height: 38px;
+    }
+
+    .input-area input {
+        padding: 16px;
+        margin-left: 0;
+
+    }
+
+    .list-container ul {
+        margin: 0 5px;
+    }
 }
