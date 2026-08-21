@@ -171,10 +171,9 @@ footer .progress-bar {
     display: none;
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .todo-app {
         border-radius: 15px;
-
     }
 
     h1 {
