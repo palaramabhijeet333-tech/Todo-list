@@ -172,11 +172,16 @@ footer .progress-bar {
 }
 
 @media (max-width:450px) {
+    body{
+     align-items: self-start;
+    }
     .todo-app {
         border-radius: 15px;
+        margin-top: 70px;
     }
 
     h1 {
+        font-size: 30px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
@@ -184,16 +189,21 @@ footer .progress-bar {
     .input-area {
         width: 90%;
         margin: 10px auto;
-        height: 38px;
+        height: auto;
     }
 
     .input-area input {
-        padding: 16px;
+        padding-left: 16px;
         margin-left: 0;
 
     }
 
     .list-container ul {
-        margin: 0 5px;
+        margin: 0 8px;
+    }
+
+    ul li {
+        font-size: 16px;
+
     }
 }
